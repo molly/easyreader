@@ -10,7 +10,7 @@ $( document ).ready( function () {
 	});
 
 	// Ctrl-Y toggles Eas[y]reader
-	$(document).keydown( function e ) {
+	$(document).keydown( function ( e ) {
 		if ( e.keyCode==89 && e.ctrlKey ) {
 			$( 'html' ).toggleClass( 'easyreader' );
 		}
